@@ -15,7 +15,7 @@ import { faShuttleVan, faEllipsisH, faBus, faTrain, faCompass, faCircle, faWalki
 faRoute} 
 from '@fortawesome/free-solid-svg-icons'
 
-const google_api_key = 'AIzaSyBJCKet5GBjRl37I15QMBGrAP1qGV-s0v8';
+const google_api_key = '';
 const { width, height } = Dimensions.get("window");
 const qaurterHeight = height / 4;
 

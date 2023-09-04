@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Live tracking server for Quemute",
+  "main": "LivetrackingServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quemute",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^11.0.1",
+    "mongodb": "^5.0.0",
+    "socketio": "^1.0.0"
+  }
+}

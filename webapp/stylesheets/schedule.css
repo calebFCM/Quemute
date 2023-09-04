@@ -1,0 +1,75 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFFFFF;
+	z-index: 99999;
+	font-family: "Trebuchet MS", "Georgia";
+}
+
+.head{
+	background-color: #1E90FF;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	font: Trebuchet MS;
+	padding: 10px 0px;
+	color: #FFFFFF;
+}
+
+.h_cont_c{
+	width: 40%;
+	text-align: center;
+}
+
+.h_cont_cm{
+	width: 20%;
+	text-align: center;
+}
+
+.label{
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.heading{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.d_indicator{
+	padding: 15px 0px;
+}
+
+.schedule{
+	width: 100%;
+	padding: 10px 2px;
+	border-bottom: 1px solid #DCD8D8;
+	display: flex;
+	flex-flow: row;
+	color: #333;
+	text-decoration: none;
+}
+
+.sched_item{
+	width: 50%;
+}
+
+
+.status{
+	color: #07B107;
+}
+
+.trans_commuter{
+	display: flex;
+	flex-flow: row;
+	padding: 10px 0px;
+}
+
+.ind_cont{
+	padding: 0px 8px;
+}
+
+.ind_icon{
+	color: #A5A2A2;
+}

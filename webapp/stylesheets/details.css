@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFFFFF;
+	z-index: 99999;
+	font-family: "Trebuchet MS", "Georgia";
+}
+
+.heading{
+	width: 100%;
+	background: #1E90FF;
+	color: #FFFFFF;
+	padding: 8px 0px;
+}
+
+.header_text{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.back{
+	color: #FFFFFF;
+	font-size: 25px;
+	display: inline-block;
+	padding: 8px 15px;
+	text-decoration: none;
+}
+
+.details{
+	padding: 15px 4px;
+}
+
+.det_block{
+	display: block;
+	padding: 4px 0px;
+}
+
+.di_title{
+	font-weight: bold;
+	color: #333;
+	font-size: 16px;
+}
+
+.di_value{
+	padding-left: 10px;
+	font-size: 14px;
+	color: #1D1B1B;
+}
+
+.ind_icon{
+	color: #971C1F;
+}
+
+.joinb_cont{
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 4px 0px;
+}
+
+.join_q{
+	width: 250px;
+	background-color: #1E90FF;
+	border: 1px solid #1E90FF;
+	color: #FFFFFF;
+	padding: 10px 0px;
+	font-size: 16px;
+	font-weight: bold;
+}

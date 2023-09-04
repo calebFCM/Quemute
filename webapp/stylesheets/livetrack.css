@@ -1,0 +1,339 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFFFFF;
+	z-index: 99999;
+}
+
+#right{
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	/*width: 50px;*/
+	margin-top: 60px;
+	display: block;
+	text-align: center;
+}
+
+.logo a{ 
+	padding: 0;
+	width: 60px;
+	height: 60px;
+}
+.logo img{
+					
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#mapcont{
+	/*width: 80%;
+	height: 280px;
+	margin: 5px auto;*/
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0px;
+	height: 100%;
+    width: 100%;
+    z-index: 1002;
+    position: fixed;
+    display: none;
+}
+
+#mapid{
+	width: 100%;
+	height: 80%;
+	margin: 0px;
+}
+
+.map_ins{
+	width: 100%;
+	background-color: #FFFFFF;
+	color: #777;
+	border-bottom: 0.5px solid #CCC
+}
+
+/*.map_info{
+	display: inline-block;
+	width: 40%;
+	margin: 0px;
+	padding: 0px;
+}*/
+
+.close_cont{
+	text-align: right;
+	padding: 5px;
+}
+
+.close{
+	text-decoration: none;
+	color: #777;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.s_simul{
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	color: #777;
+}
+
+.fa-times-thin:before{
+	content: '\00d7';
+}
+
+.livetrack{
+	margin-bottom: 30px;
+	/*display: none;*/
+}
+
+.transroutes{
+	margin: 70px 0px;
+}
+
+.search_res{
+	display: none;
+}
+
+.route{
+	display: block;
+	text-decoration: none;
+	width: 90%;
+	background: #FFFFFF;
+	margin: 10px auto;
+	padding: 10px 6px;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	/*box-shadow: 0px 0px 9px 0px rgba(195,195,207,1);*/
+}
+
+.routename{
+	font-size: 16px;
+	font-weight: bold;
+	color: #777;
+}
+
+.taxi{
+	color: #971C1F;
+	padding-right: 8px;
+}
+
+.bus{
+	color: #008ECC;
+	padding-right: 8px;
+}
+
+.train{
+	color: #D4AF37;
+	padding-right: 8px;
+}
+
+.startend{
+	display: flex;
+	display: -webkit-flex;
+	padding: 20px 0px;
+}
+
+.ri_left{
+	text-align: left;
+	color: #333;
+}
+
+.ri_center{
+	text-align: center;
+	color: #777;
+}
+
+.ri_right{
+	text-align: right;
+	color: #333;
+}
+
+.routeitem{
+	width: 33.3%;
+	font-weight: bold;
+}
+
+.se{
+	display: flex;
+	display: -webkit-flex
+}
+
+.s_e{
+	font-size: 15px;
+	font-weight: bold;
+	width: 50%;
+}
+
+.se_right{
+	text-align: right;
+	color: #971C1F;
+}
+
+.se_left{
+	color: #008ECC;
+}
+
+.route_stats{
+	width: 50%;
+	padding: 10px;
+}
+
+.r_stat{
+	display: block;
+}
+
+.footer_menu{
+	display: flex;
+	display: -webkit-flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 0.5px solid #CCC;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.map_foot{
+	display: flex;
+	display: -webkit-flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 0.5px solid #CCC;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	text-align: center;
+	z-index: 3001;
+	height: 55px;
+}
+
+.flexcont{
+	/*width: 50%;*/
+	text-align: right;
+	padding: 8px;
+}
+
+.navopt{
+	text-decoration: none;
+	color: #777;
+	/*width: 100%;*/
+	padding: 10px 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+.navopt:active{
+	color: #008ECC;
+}
+
+.active{
+	color: #008ECC;
+}
+
+.r_search{
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #CCC;
+	padding: 15px 0px;
+	background: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.cancel{
+	text-decoration: none;
+	color: #333;
+	display: none;
+}
+
+.search_input{
+	width: 80%;
+	height: 25px;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+}
+
+.lightbox-shadow{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	/*background:rgba(0, 0, 0, 0.8);*/
+	background-color: #FFFFFF;
+	z-index: 4001;
+	display: none;
+}
+
+.loading{
+	display: block;
+}
+
+.load_logo{
+	width: 50px;
+	height: 50px;
+}
+
+.loader_box{
+	position: absolute;
+	text-align: center;
+	width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.info_box{
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.info_cont{
+	padding: 20px 0px;
+}
+
+.info_icon{
+	font-size: 30px;
+	color: #971C1F;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 0 0 4px #000;
+}
+
+.close_popup{
+	text-decoration: none;
+	color: #CCC;
+	font-size: 35px;
+}
+
+.info_message{
+	background: #971C1F;
+	color: #FFF;
+}
+
+.info_header{
+	color: #333333;
+	font-weight: bold;
+}
